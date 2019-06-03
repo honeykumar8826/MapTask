@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/place_card_on_map_width"
+    android:layout_height="@dimen/place_card_on_map_height"
+    android:layout_marginEnd="@dimen/spacing_8"
+    app:cardCornerRadius="@dimen/trending_card_radius"
+    tools:ignore="contentDescription">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/place_img"
+            android:layout_width="@dimen/place_on_map_img_height"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/travel1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/place_img"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_8"
+                android:layout_marginTop="@dimen/spacing_8"
+                android:text="@string/trip_to_anandhama"
+                android:textColor="@color/black_color"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_8"
+                android:text="@string/andamans"
+                android:textColor="@color/black_color" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_6"
+                android:drawableStart="@drawable/ic_location_gray_color"
+                android:text="@string/port_blair"
+                android:textColor="@color/black_color" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_8"
+                android:layout_marginTop="@dimen/spacing_6"
+                android:text="@string/profesional_dancer_and" />
+
+            <Button
+                android:layout_width="@dimen/join_btn_place_map"
+                android:layout_height="@dimen/join_btn_height_place_map"
+                android:layout_marginStart="@dimen/spacing_8"
+                android:layout_marginTop="@dimen/spacing_8"
+                android:background="@drawable/join_button_selector"
+                android:text="@string/join"
+                android:textColor="@color/white_color"
+                android:textSize="@dimen/size_12" />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

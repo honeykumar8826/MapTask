@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MapTask</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="friends">Friends</string>
+    <string name="trending">Trending</string>
+    <string name="valparaiso">Valparaiso</string>
+    <string name="_50">50+</string>
+    <string name="trip_to_anandhama">Trip To Anandhama..</string>
+    <string name="andamans">#andamans</string>
+    <string name="port_blair">Port Blair</string>
+    <string name="profesional_dancer_and">Profesional dancer and ..</string>
+    <string name="join">Join</string>
+    <string name="jenny">Jenny</string>
+    <string name="for_you">For You</string>
+    <string name="travel">Travel</string>
+    <string name="spirituality">Spirituality</string>
+    <string name="mutual">Mutual</string>
+</resources>
